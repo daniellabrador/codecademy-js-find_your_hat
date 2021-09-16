@@ -19,12 +19,18 @@ In this project, you’ll be building an interactive terminal game. The scenario
 
 ## Setup
 
-To run this program, you need to install [Node.js](https://nodejs.org/en/download/) to your machine.
+To run this program, you need to install [Node.js and NPM](https://nodejs.org/en/download/) to your machine.
 
-Enter this command to the terminal:
+You need to download the necessary modules first before you are able to run the program:
 
 ```bash
-node script.js
+npm install prompt-sync
+```
+
+To open the program, enter this command to the terminal:
+
+```bash
+node game.js
 ```
 
 ## Sources
