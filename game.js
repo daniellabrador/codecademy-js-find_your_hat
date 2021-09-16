@@ -156,7 +156,7 @@ class Field {
     this.findPlayer();
     this.findHat();
 
-    while (!this._hasWon && this._isAlive && !this._hasWon){
+    while (!this._hasWon && this._isAlive){
       this.print();
 
       let userInput = 'W';
